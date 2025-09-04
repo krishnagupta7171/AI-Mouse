@@ -1,9 +1,10 @@
 🖱️ AI Mouse – Gesture Controlled Virtual Mouse
 
-Control your computer using hand gestures powered by MediaPipe, OpenCV, and PyAutoGUI.
-This project turns your webcam into an AI-powered controller for mouse actions, volume control, scrolling, and more.
+Control the computer using hand gestures powered by MediaPipe, OpenCV, and PyAutoGUI.
+This project turns the webcam into an AI-powered controller for mouse actions, volume control, scrolling, and more.
 
 ✨ Features
+
 🎯 Right Hand Gestures
 
 Cursor Movement → Move mouse pointer with index finger.
@@ -32,39 +33,48 @@ Volume bar with percentage.
 
 🛠️ Tech Stack
 
-Python 3.x
+Python 3.10
 
 OpenCV
+
  – Image processing
 
 MediaPipe
+
  – Hand landmark detection
 
 PyAutoGUI
+
  – Mouse & keyboard automation
 
 Pynput
+
  – Mouse control
 
 PyCaw
+
  – System audio control
 
 🚀 Setup & Usage
 
 1️⃣ Clone the repo
+
 git clone https://github.com/your-username/AI-Mouse.git
+
 cd AI-Mouse
 
 2️⃣ Install dependencies
+
 pip install opencv-python mediapipe pyautogui pynput pycaw comtypes numpy
 
 3️⃣ Run the script
+
 python ai_mouse.py
 
 4️⃣ Controls
 
 Use Right Hand for mouse, click, double-click, screenshot.
 
-Use Left Hand for scroll and volume control.
+Use Left Hand for scroll up & down and volume control.
 
 Press q to exit.
