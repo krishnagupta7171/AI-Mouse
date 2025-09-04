@@ -49,14 +49,8 @@ Pynput
 PyCaw
  – System audio control
 
-📂 Project Structure
-AI-Mouse/
-│── HandTrackingModule.py   # Custom MediaPipe wrapper (if used)
-│── mute.png                # Icon for mute overlay
-│── ai_mouse.py             # Main script (the code you shared)
-│── README.md               # Project documentation
-
 🚀 Setup & Usage
+
 1️⃣ Clone the repo
 git clone https://github.com/your-username/AI-Mouse.git
 cd AI-Mouse
